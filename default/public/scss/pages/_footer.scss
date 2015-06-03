@@ -1,0 +1,24 @@
+/**********************
+PAGE EXAMPLE
+**********************/
+@media #{$small-up} {
+    body {
+        footer {
+            a, p {
+                font-size: 0.75rem;
+            }
+        }
+    }
+}
+
+@media #{$medium-up} {
+    body {
+
+    }
+}
+
+@media #{$large-up} {
+    body {
+
+    }
+}

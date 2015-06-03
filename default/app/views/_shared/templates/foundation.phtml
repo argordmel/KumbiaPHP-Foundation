@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta http-equiv='Content-type' content='text/html; charset=<?php echo APP_CHARSET ?>' />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Emprende Cápsula -  Laboratorio para crecimiento empresarial</title>
+        <title>KumbiaPHP Framework con Foundation y Sass</title>
+        <?php Tag::css('app'); ?>
+        <?php echo Html::includeCss() ?>
+
+        <!--[if lt IE 10]>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <!--[if gte IE 10]><!-->
+            <script src="<?= PUBLIC_PATH; ?>bower_components/jquery/dist/jquery.min.js"></script>
+        <!--<![endif]-->
+
+        <!--[if lt IE 10]>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+            <script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+            <script src="//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js"></script>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+            <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-ajaxtransport-xdomainrequest/1.0.3/jquery.xdomainrequest.min.js"></script>
+        <![endif]-->
+
+        <script src="<?= PUBLIC_PATH; ?>bower_components/modernizr/modernizr.js"></script>
+
+    </head>
+    <body>
+        <div class="row">
+            <div class="small-12 columns">
+                <h1>Welcome to Foundation</h1>
+            </div>
+        </div>
+
+        <?php View::content(); ?>
+
+        <footer>
+            <div class="row">
+                <div class="small-12 medium-12 large-4 columns">
+                    <p>
+                        KumbiaPHP
+                        <a href='http://www.kumbiaphp.com/'>KumbiaPHP Framework</a>
+                        <a href='http://wiki.kumbiaphp.com/'>Wiki</a>
+                        <a href='https://docs.google.com/document/d/1kth1GhrmMEBK2cAMyiy_4Dw1qlJFNdXVuXajJ6nMTQg/edit?hl=es'>Manual</a>
+                        <a href='http://wiki.kumbiaphp.com/Licencia' title='New BSD'>Licencia</a>
+                    </p>
+                </div>
+                <div class="small-12 medium-12 large-4 columns">
+                    <p>
+                        Ayuda Online:
+                        <a href='irc://irc.freenode.org/#kumbiaphp' title="IRC donde podrás encontrar ayuda a problemas que tengas, hacer comentarios, proponer ideas, reportar bugs, socializar temas relacionados y disfrutar de KumbiaPHP.">IRC</a> |
+                        <a href='http://webchat.freenode.net/?channels=kumbiaphp' title="Web Chat IRC donde podrás encontrar ayuda a problemas que tengas, hacer comentarios, proponer ideas, reportar bugs, socializar temas relacionados y disfrutar de KumbiaPHP.">Web IRC</a> |
+                        <a href='http://groups.google.com/group/kumbia' title="Lista de Correo de KumbiaPHP donde podrás encontrar ayuda a problemas que tengas, hacer comentarios, proponer ideas, reportar bugs, socializar temas relacionados y disfrutar de KumbiaPHP.">Grupo</a> | <a href='http://foro.kumbiaphp.com' title="Foro de KumbiaPHP donde podrás encontrar ayuda a problemas que tengas, hacer comentarios, proponer ideas, reportar bugs, socializar temas relacionados y disfrutar de KumbiaPHP.">Foro</a>
+                    </p>
+                </div>
+                <div class="small-12 medium-12 large-4 columns">
+                    <p>
+                        <a href='http://wiki.kumbiaphp.com/Team_Development_KumbiaPHP_Framework'>© 2007 - 2015 KumbiaPHP Team</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="small-12 columns text-center">
+                    <p>
+                        Ejecutado en 2.7349 ms. usando 0.47 MB de memoria
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+
+    </body>
+</html>
