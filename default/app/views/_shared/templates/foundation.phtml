@@ -4,7 +4,6 @@
         <meta http-equiv='Content-type' content='text/html; charset=<?php echo APP_CHARSET ?>' />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>Emprende Cápsula -  Laboratorio para crecimiento empresarial</title>
         <title>KumbiaPHP Framework con Foundation y Sass</title>
         <?php Tag::css('app'); ?>
         <?php echo Html::includeCss() ?>
@@ -69,6 +68,9 @@
             </div>
         </footer>
 
+
+        <script src="<?= PUBLIC_PATH; ?>bower_components/foundation/js/foundation.min.js"></script>
+        <?= Tag::js('app'); ?>
 
     </body>
 </html>
