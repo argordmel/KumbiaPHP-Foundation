@@ -3115,6 +3115,23 @@ th.hide-for-touch { display: table-cell !important; }
 .fa-medium:before { content: "\f23a"; }
 
 /**********************
+CUSTOM STYLE FOR BUTTONS
+**********************/
+/**********************
+CUSTOM STYLE FOR FORMS
+**********************/
+/**********************
+CUSTOM STYLE FOR MODALS
+**********************/
+/**********************
+CUSTOM STYLE FOR TABS
+**********************/
+/**********************
+MIX AND UTILITY CSS
+**********************/
+@media only screen { /* line 8, ../scss/components/_utility.scss */
+  body a, body .button, body select, body button { outline: none !important; } }
+/**********************
 PAGE EXAMPLE
 **********************/
 @media only screen { /* line 7, ../scss/pages/_footer.scss */
@@ -3122,5 +3139,5 @@ PAGE EXAMPLE
 /**********************
 PAGE EXAMPLE
 **********************/
-@media only screen { /* line 18, ../scss/app.scss */
+@media only screen { /* line 23, ../scss/app.scss */
   body { font-family: "Open Sans", sans-serif; } }
