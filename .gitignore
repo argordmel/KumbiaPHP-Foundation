@@ -1,5 +1,4 @@
 #KumbiaPHP
-vendor/*
 
 # Numerous always-ignore extensions
 *.diff
