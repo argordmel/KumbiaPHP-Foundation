@@ -1,5 +1,10 @@
 # KumbiaPHP, Foundation With Sass & LiveReload
 
+[KumbiaPHP](http://kumbiaphp.com/)
+[Foundation](http://foundation.zurb.com/docs/)
+[Sass](http://sass-lang.com/guide)
+[LiveReload](http://livereload.com/)
+
 ## Instalación en ubuntu o mac
 
 ####Instalando elementos necesarios
